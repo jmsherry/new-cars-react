@@ -6,7 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "./theme";
 
 import PageLayout from "./components/PageLayout";
-import ErrorBoundary from "./components/ErrorBoundary";
+// import ErrorBoundary from "./components/ErrorBoundary";
 
 import Home from "./pages/Home";
 import AddCar from "./pages/AddCar";
