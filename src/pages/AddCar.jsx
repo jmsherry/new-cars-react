@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useContext } from "react";
+import CarForm from "./../components/forms/CarForm";
+
+import { CarsContext } from "./../contexts/car.context";
 
 function AddCar() {
+  const { addCar } = useContext(CarsContext);
   return (
-    <div>AddCar</div>
-  )
+    <>
+      <h1>Add a Car</h1>
+      <CarForm submitHandler={addCar} />
+    </>
+  );
 }
 
-export default AddCar
+export default AddCar;
