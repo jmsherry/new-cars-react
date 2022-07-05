@@ -25,6 +25,7 @@ function Home() {
 
   return (
     <Box>
+    <h1>List</h1>
       <List>
         {cars.map(({ name, bhp, avatar_url, _id }, i) => (
           <ListItem key={i}>
